@@ -1,0 +1,70 @@
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris_oscuro: #666;
+    --Gris_claro: #ebebeb;
+    --Verde: #39b54a;
+}
+header {
+    background-color: var(--Amarillo);
+    width: 100%;
+}
+body {
+    width: 100%;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+}
+h2{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+    line-height:0%;
+}
+p.precios {
+    font-size: 18px;
+}
+
+p.descuentos{
+    font-size: 16px;
+}
+
+p.descripciones{
+    font-size: 16px;
+}
+
+.burger-menu{
+    
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: #ebebeb;
+    
+}
+.fa-bars:before{
+    background-color: var(--Celeste);
+    border-radius: 10%;
+    padding: 5px;
+    margin-bottom: 7vw;
+    width: auto;
+}
+h6{
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.fas{
+    
+    line-height:0;
+}
+footer {
+    text-align: center;
+}
