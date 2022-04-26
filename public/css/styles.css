@@ -6,19 +6,31 @@
     --Gris_claro: #ebebeb;
     --Verde: #39b54a;
 }
+body{
+    width: 100vw;
+    margin-bottom: 5px;
+    margin:0%;
+
+}
 header {
     background-color: var(--Amarillo);
-    width: 100%;
+    width: 100vw;
+    padding: 10px;
 }
-body {
-    width: 100%;
+.banner {
+    width: 100vw;
 }
-
+main{
+    width: 100vw;
+}
+img{
+    width: 100vw;
+}
 .logo{
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
-h2{
+.titulares{
     font-size: 24px;
 }
 
@@ -42,8 +54,6 @@ p.descripciones{
     
     text-align: center;
     font-weight: bold;
-    margin-left: 50%;
-    margin-right: 50%;
     color: #ebebeb;
     
 }
@@ -56,8 +66,8 @@ p.descripciones{
 }
 h6{
     text-align: center;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -67,4 +77,9 @@ h6{
 }
 footer {
     text-align: center;
+    width: 100vw;
+}
+.menu{
+    padding: 5px 0px 5px 0px;
+    margin: -10px;
 }
