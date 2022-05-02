@@ -6,6 +6,10 @@
     --Gris_claro: #ebebeb;
     --Verde: #39b54a;
 }
+html {
+    height: 100vw;
+    width: 100vw;
+}
 body{
     width: 100vw;
     margin-bottom: 5px;
@@ -22,6 +26,7 @@ header {
 
 .logoYBuscador{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .banner {
@@ -101,11 +106,18 @@ footer.p{
     line-height: normal;
     text-align: center !important;
 }
+
+.menues{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-between;
+}
 .menu{
-    padding: 5px 0px 5px 0px;
+    display: block;
+    padding: 5px 5px 5px 5px;
     margin: -10px;
     line-height: 0;
-    display: none;
+    justify-content: space-between;
 }
 
 h4.titulos-footer{
