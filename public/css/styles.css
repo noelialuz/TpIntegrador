@@ -7,8 +7,10 @@
     --Verde: #39b54a;
 }
 html {
-    height: 100vw;
-    width: 100vw;
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 body{
     width: 100vw;
@@ -60,13 +62,13 @@ p.precios {
     text-align: left;
 }
 
-p.descuentos{
+.descuentos{
     font-size: 16px;
     text-align: left;
     color : var(--Verde);
 }
 
-p.descripciones{
+.descripciones{
     font-size: 16px;
     text-align: left;
     display: none;
@@ -100,6 +102,7 @@ h6{
 footer {
     text-align: center;
     width: 100vw;
+    height: 100vh;
     
 }
 footer.p{

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <title>Mercado Liebre</title>
+</head>
+<body>
+    <form action="resultado.html" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" required>
+        <label for="surname">Apellido:</label>
+        <input type="text" name="surname" required>
+        <label for="user">Nombre de Usuario:</label>
+        <input type="text" name="user" required>
+        <label for="email">Correo electronico:</label>
+        <input type="email" name="email" required>
+        <label for="birth">Fecha de nacimiento:</label>
+        <input type="date" name="birth" required>
+        <label for="address">Domicilio:</label>
+        <input type="text" name="address" required>
+        <label type="text">Perfil</label>
+        <label for="Vendedor"><input type="radio" name="profileType" value="Vendedor">Vendedor</label>
+        <label for="Comprador"><input type="radio" name="profileType" value="Comprador">Comprador</label>
+        <label type="text">Categorías de Interés</label>
+        <label><input type="checkbox" name="categories" value="electro">Electro</label>
+        <label><input type="checkbox" name="categories" value="moda">Moda</label>
+        <label><input type="checkbox" name="categories" value="hogar">Hogar</label>
+        <label><input type="checkbox" name="categories" value="jugueteria">Juguetería</label>
+        <label><input type="checkbox" name="categories" value="vidaSana">Vida Sana</label>
+        <label>Ingresá tu foto <input type="file" name="userImage"></label>
+        <label for="password">Contraseña <input type="password" id="password" name="password"></label>
+        <label for="checkPassword">Confirmar Contraseña <input type="password" id="checkPassword" name="checkPassword"></label>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+                   
+</body>
+</html>
